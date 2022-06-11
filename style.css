@@ -49,10 +49,11 @@ ul {
 
 .leftabout {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     font-size: 18px;
-    text-align: center;
-    margin: 25px;
+    margin: auto;
 }
 
 p {
@@ -74,6 +75,7 @@ p {
     width: 400px;
     height: 200px;
     border-radius: 20px;
+    flex:1;
 }
 
 .goalsinfo
