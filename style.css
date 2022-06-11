@@ -101,7 +101,7 @@ p {
     font-style: italic;
     font-size: 50px;
     margin: 0;
-    padding: 50px;
+    padding: 75px;
     background-color: #c49799;
     color: white;
     border: dotted white;
@@ -114,10 +114,17 @@ p {
 
 /***** GET IN TOUCH *****/
 
-.contact {
+#contactcard {
+    margin: 50px;
+}
+
+.getintouch {
     text-align: center;
-    margin: 20px;
-    
+    margin: auto;
+    border:#c49799 dotted;
+    width: 50%;
+    border-radius: 15px;   
+    padding: 15px;
 }
 
 ul {
