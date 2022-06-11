@@ -71,7 +71,7 @@ p {
 
 .goalsinfo,
 #pics {
-    width: 300px;
+    width: 400px;
     height: 200px;
     border-radius: 20px;
 }
@@ -150,7 +150,7 @@ h3 {
 /***** EXTRAS *****/ 
 
 img {
-    width: 300px;
+    width: 400px;
     border: dotted white;
 }
 
