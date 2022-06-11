@@ -64,24 +64,30 @@ p {
 
 .goals {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 52px;
+    padding: 32px;
 }
 
+.goalsinfo,
 #pics {
-    max-width: auto;
+    max-width: 400px;
     height: 200px;
+    border: 1px dotted white;
+    gap: 8px;
 }
 
-/* add border radius ^^ if pics have a background */
 
-.goals
+.goalsinfo
 p {
     text-align: center;
     color:#c49799;
 }
 
+
+
 .goalsheading {
-    margin: 25px;
     text-align: center;
     color:#c49799;
 }
