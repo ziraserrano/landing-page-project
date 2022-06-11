@@ -1,0 +1,161 @@
+/***** WEB STYLE *****/
+
+body {
+    font-family: Inter, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+#toppage {
+    background-color: #c49799;
+    border: dotted white;
+}
+
+/***** HEADER *****/
+
+header {
+    display:flex;
+    justify-content: space-between;
+    padding: 16px;
+    color: white;
+}
+
+.headerlogo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    align-items: center;
+    gap: 32px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/***** ABOUT ME ******/
+
+.aboutme {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.leftabout {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    text-align: center;
+    margin: 25px;
+}
+
+p {
+    margin: 10px;
+}
+
+/***** GOALS *****/
+
+.goals {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 32px;
+    margin-bottom: 52px;
+}
+
+.goalsinfo,
+#pics {
+    width: 300px;
+    height: 200px;
+}
+
+.goalsinfo
+p {
+    text-align: center;
+    color:#c49799;
+}
+
+.goalsheading {
+    margin: 25px;
+    text-align: center;
+    color:#c49799;
+}
+
+
+/***** QUOTE *****/
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    margin: 0;
+    padding: 50px;
+    background-color: #c49799;
+    color: white;
+    border: dotted white;
+}
+
+.author {
+    padding-top: 25px;
+    text-align: right;
+}
+
+/***** GET IN TOUCH *****/
+
+.contact {
+    text-align: center;
+    margin: 20px;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+h3 {
+    font-size: 20px;
+    color:#c49799;
+}
+
+
+
+
+/***** FOOTER *****/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #c49799;
+    height: 45px;
+}
+
+/***** EXTRAS *****/ 
+
+img {
+    width: 300px;
+    border: dotted white;
+}
+
+button {
+    background-color: #c49799;
+    padding: 8px 16px;
+    border: dotted white;
+}
+
