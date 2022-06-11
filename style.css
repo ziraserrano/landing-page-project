@@ -64,23 +64,17 @@ p {
 
 .goals {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 32px;
-    margin-bottom: 52px;
+    align-items: center;
 }
 
-.goalsinfo,
 #pics {
-    width: 400px;
+    max-width: auto;
     height: 200px;
-    border: 1px dotted white;
-    gap: 8px;
 }
 
 /* add border radius ^^ if pics have a background */
 
-.goalsinfo
+.goals
 p {
     text-align: center;
     color:#c49799;
@@ -161,7 +155,7 @@ h3 {
 /***** EXTRAS *****/ 
 
 img {
-    width: 400px;
+    max-width: 300px;
     border: 1px dotted white;
 }
 
@@ -170,4 +164,3 @@ button {
     padding: 8px 16px;
     border: 1px dotted white;
 }
-
