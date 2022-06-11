@@ -10,7 +10,7 @@ body {
 
 #toppage {
     background-color: #c49799;
-    border: dotted white;
+    border: 1px dotted white;
 }
 
 /***** HEADER *****/
@@ -65,7 +65,7 @@ p {
 .goals {
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 32px;
     margin-bottom: 52px;
 }
@@ -74,9 +74,11 @@ p {
 #pics {
     width: 400px;
     height: 200px;
-    border-radius: 20px;
-    flex:1;
+    border: 1px dotted white;
+    gap: 8px;
 }
+
+/* add border radius ^^ if pics have a background */
 
 .goalsinfo
 p {
@@ -104,7 +106,7 @@ p {
     padding: 75px;
     background-color: #c49799;
     color: white;
-    border: dotted white;
+    border: 1px dotted white;
 }
 
 .author {
@@ -121,7 +123,7 @@ p {
 .getintouch {
     text-align: center;
     margin: auto;
-    border:#c49799 dotted;
+    border: 2px #c49799 dotted;
     width: 50%;
     border-radius: 15px;   
     padding: 15px;
@@ -160,12 +162,12 @@ h3 {
 
 img {
     width: 400px;
-    border: dotted white;
+    border: 1px dotted white;
 }
 
 button {
     background-color: #c49799;
     padding: 8px 16px;
-    border: dotted white;
+    border: 1px dotted white;
 }
 
