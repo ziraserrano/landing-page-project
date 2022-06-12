@@ -47,12 +47,17 @@ ul {
     padding: 32px;
 }
 
+.aboutmeheading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
 .leftabout {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 18px;
     margin: auto;
 }
 
@@ -62,55 +67,56 @@ p {
 
 /***** GOALS *****/
 
-.goals {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-bottom: 52px;
-    padding: 32px;
-}
-
-.goalsinfo,
-#pics {
-    max-width: 400px;
-    height: 200px;
-    border: 1px dotted white;
-    gap: 8px;
-}
-
-
-.goalsinfo
-p {
-    text-align: center;
-    color:#c49799;
-}
-
-
-
 .goalsheading {
     text-align: center;
     color:#c49799;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
 }
 
+.text {
+    color: #c49799;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.goals {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 40px;
+}
+
+.goalsinfo {
+    max-width: 500px;
+}
+
+.goalsinfo
+img {
+    width: 500px;
+    height: 200px;
+}
+
+#TOP {
+    object-fit: contain;
+}
 
 /***** QUOTE *****/
 
 .quote {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    text-align: center;
     font-style: italic;
     font-size: 50px;
-    margin: 0;
-    padding: 75px;
+    padding: 60px;
     background-color: #c49799;
     color: white;
     border: 1px dotted white;
 }
 
 .author {
-    padding-top: 25px;
+    padding: 50px;
     text-align: right;
 }
 
