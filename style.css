@@ -96,6 +96,8 @@ p {
 img {
     width: 500px;
     height: 200px;
+    border: 2px #c49799 dotted;
+    border-radius: 15px;  
 }
 
 #TOP {
@@ -169,6 +171,7 @@ h3 {
 img {
     max-width: 300px;
     border: 1px dotted white;
+    border-radius: 15px;  
 }
 
 button {
