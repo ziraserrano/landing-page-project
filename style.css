@@ -27,14 +27,14 @@ header {
     font-weight: bold;
 }
 
-ul {
+header ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display:flex;
     align-items: center;
     gap: 32px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -44,13 +44,14 @@ ul {
     display:flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 32px;
+    padding: 80px;
 }
 
 .aboutmeheading {
+    text-align: center;
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 
 .leftabout {
@@ -63,6 +64,11 @@ ul {
 
 p {
     margin: 10px;
+    color: white;
+}
+
+.TOP {
+    text-decoration: underline;
 }
 
 /***** GOALS *****/
@@ -84,7 +90,7 @@ p {
 .goals {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 50px;
     gap: 40px;
 }
 
@@ -129,17 +135,19 @@ img {
 }
 
 .getintouch {
-    text-align: center;
     margin: auto;
     border: 2px #c49799 dotted;
-    width: 50%;
+    width: 40%;
     border-radius: 15px;   
-    padding: 15px;
+    padding: 10px;
 }
 
-ul {
+.getintouch ul {
     display: flex;
     justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -148,7 +156,10 @@ a {
 }
 
 h3 {
-    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
     color:#c49799;
 }
 
@@ -176,6 +187,9 @@ img {
 
 button {
     background-color: #c49799;
-    padding: 8px 16px;
+    width:  20%;
+    padding: 10px;
     border: 1px dotted white;
+    border-radius: 15px;
+    margin: 10px;
 }
